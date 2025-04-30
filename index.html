@@ -14,14 +14,24 @@
             <div class="left">Prakash's Portfolio</div>
             <div class="right">
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="/portfolio/about.html">About</a></li>
-                    <li><a href="#home">Services</a></li>
-                    <li><a href="#project">Projects</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
-                    
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="/portfolio/about.html">About</a></li>
+                  <li><a href="#home">Services</a></li>
+                  <li><a href="#project">Projects</a></li>
+                  <li><a href="#contact">Contact Me</a></li>
                 </ul>
-            </div>
+              
+                <!-- Mobile Dropdown Menu -->
+                <select onchange="location = this.value;">
+                  <option value="#">☰ Menu</option>
+                  <option value="#home">Home</option>
+                  <option value="/portfolio/about.html">About</option>
+                  <option value="#home">Services</option>
+                  <option value="#project">Projects</option>
+                  <option value="#contact">Contact Me</option>
+                </select>
+              </div>
+              
             
         </nav>
         
@@ -38,7 +48,7 @@
                 <div class="buttons">
                     <a href="https://github.com/prakashsoni0024" target="_blank"><button class="btn" >GitHub</button></a>
                     
-                    <a href="your-cv.pdf" download>
+                    <a href="/portfolio/assets/FirstName_LastName_Resume (2) (1).docx" download>
                         <button class="btn">Download CV</button>
                       </a>
                 </div>
