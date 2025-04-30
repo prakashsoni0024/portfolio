@@ -255,3 +255,94 @@ footer .footer-rights{
 }
 
 
+/* ................................media query ............................ */
+
+@media (max-width: 768px) {
+    .secondSection {
+      display: none;
+    }
+
+    
+  }
+
+
+
+  /* Responsive NavBar for Mobile Devices */
+@media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 8px;
+    }
+  
+    nav .right ul {
+      display: none; /* Hide normal nav links */
+    }
+  
+    nav .right select {
+    
+      display: block; /* Show the select dropdown */
+      margin-top: auto;
+      padding: 5px;
+      font-size: 0.5rem;
+      background-color:  #1E293B;
+      color: white;
+      border: 1px solid white;
+      border-radius: 5px;
+    }
+  }
+
+
+  /* responsive for first section */
+
+  @media (max-width: 768px) {
+    .firstSection {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      min-height: 63vh;
+    }
+  
+    .firstSection .rightSection {
+      display: none;
+    }
+  
+    .firstSection .leftSection {
+      width: 100%;
+      font-size: 1.5rem;
+      padding-right: 20px;
+    }
+  
+    .leftSection .buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .leftSection .btn {
+      margin: 10px 0;
+      width: 100%;
+    }
+  }
+
+  main hr {
+    border: 0;
+    background-color:#3B82F6;
+    height: 1.2px;
+    margin: 40px 15px;
+}
+  
+@media (max-width: 768px) {
+
+    .footer {
+        display: none;
+    }
+
+    footer {
+       height: 40px;
+       
+    
+    }
+}
+
+
