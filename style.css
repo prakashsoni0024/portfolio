@@ -253,7 +253,9 @@ footer .footer-rights{
     list-style: none;
     color: rgb(208, 206, 206);
 }
-
+.right select {
+    display: none;
+}
 
 /* ................................media query ............................ */
 
