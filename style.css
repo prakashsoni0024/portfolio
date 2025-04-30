@@ -31,6 +31,7 @@ nav ul li{
 nav ul li a {
     text-decoration: none;
     color: white;
+    font-weight: 600;
 
 }
 
@@ -40,7 +41,9 @@ nav ul li a:hover{
 }
 
 .left{
-   font-size: 1.5rem;
+   font-size: 1.6rem;
+   font-weight: 600;
+   
 }
 
 .firstSection {
@@ -48,24 +51,37 @@ nav ul li a:hover{
     justify-content: space-around;
     align-items: center;
     margin: 80px 0;
+   
+    min-height: 72vh;
     
     
     
 }
 
 .firstSection > div {
-    width: 30%;
+    width: 35%;
 }
 
 .leftSection{
     
-    font-size: 2.5rem;
-    
-    
+    font-size: 2.5rem;   
+}
+.leftSection .buttons {
+    padding: 50px 0;
+
+}
+.leftSection .btn{
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
 
 .rightSection img{
-    width: 80%;
+    width: 100%;
     margin: 50px 0;
     
    
@@ -75,6 +91,9 @@ nav ul li a:hover{
 .purple {
     color: blueviolet;
 }
+.text-gray {
+    color: grey;
+}
 #element {
     color: blueviolet;
 }
@@ -82,6 +101,23 @@ nav ul li a:hover{
 .secondSection {
     max-width: 80vw;
     margin: auto;
+    height: 60vh;
+}
+
+.secondSection .box {
+    background: rgb(255, 255, 255);
+    width: 83vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 115px;
+
 }
 
 main hr {
@@ -90,3 +126,122 @@ main hr {
     height: 1.2px;
     margin: 40px 84px;
 }
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+.image-top{
+    width: 23px;
+    position: relative;
+    top: -25px;
+    left: -9px;
+}
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 14px;
+
+}
+
+.vertical-desc {
+    position: relative;
+    top: 79px;
+    color: grey;
+    width:150px ;
+    font-size: 9px;
+
+}
+
+.section {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: rgb(0, 0, 33);
+    color: #fff;
+    margin: auto;
+    height: 50vh;
+    max-width: 80vw;
+  }
+  .section h2 {
+    margin-bottom: 1rem;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  form input,
+  form textarea {
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    padding: 10px;
+    background: blueviolet;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+footer{
+    background-color: #0e0e1a;
+    
+
+}
+
+.footer{
+    display: flex;
+   padding: 23px 122px;
+   justify-content: space-evenly;
+    
+}
+
+
+
+.footer ul {
+    list-style: none;
+    margin: 0 23px;
+    
+    
+
+    
+}
+
+footer .footer-rights{
+    text-align: center;
+    padding: 12x 0;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    color: grey;
+}
+.footer ul li{
+    margin-top: 10px;
+}
+.footer p {
+    margin-top: 8px;
+}
+.footer-second ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+   
+}
+
+.footer-second ul li a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+    transition: 0.3s;
+
+}
+
+.footer-third ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+

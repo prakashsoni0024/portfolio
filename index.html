@@ -9,45 +9,166 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="home">
             <div class="left">Prakash's Portfolio</div>
             <div class="right">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="/portfolio/about.html">About</a></li>
                     <li><a href="/">Services</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Contact Me</a></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    
                 </ul>
             </div>
+            
         </nav>
+        
     </header>
 
     <main>
-        <section class="firstSection">
+        <section  class="firstSection">
             <div class="leftSection">
-                Hey, My name is <span class="purple">Prakash</span> 
+                Hey, My name is <span class="purple">Prakash Soni</span> 
                 <div>I'm a passionate</div>
+
                 
                 <span id="element"></span>
+                <div class="buttons">
+                    <a href="https://github.com/prakashsoni0024" target="_blank"><button class="btn" >GitHub</button></a>
+                    
+                    <a href="your-cv.pdf" download>
+                        <button class="btn">Download CV</button>
+                      </a>
+                </div>
             </div>
             <div class="rightSection">
-                <img src="dev.png" alt="">
+                <img src="https://www.dharmishi.com/img/vectors/developer.png" alt="">
 
         </section>
            <hr>
-        <section class="secondSection">
-            <h1>Past Experiences</h1>
+        <section  id="project" class="secondSection">
+            <!-- <span class="text-gray">What I Have Done so far</span> -->
+            <h1>My Projects</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img src="https://cdn.fs.teachablecdn.com/XczuQNSlKyEYCyRYURQg" class="image-top">
+                    <div class="vertical-title">
+                     🚦Traffic Signal Light Simulation with Timer
+                    </div>
+                    <div class="vertical-desc">
+                        I developed a fully functional Traffic Signal Light Simulation using HTML, CSS, and JavaScript. This project visually replicates the behavior of real-world traffic lights by displaying red, yellow, and green signals in a timed sequence.
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img src="https://cdn.fs.teachablecdn.com/XczuQNSlKyEYCyRYURQg" class="image-top">
+                    <div class="vertical-title">
+                        🌤️ Weathersphere – Weather Finder Web App
+                    </div>
+                    <div class="vertical-desc">
+                        Weathersphere is a modern, responsive Weather Finder website developed using HTML, CSS, and JavaScript, along with a third-party weather API (like OpenWeatherMap). It allows users to search for any city and instantly get real-time weather information including temperature, humidity, weather conditions, and wind speed.
+
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="https://cdn.fs.teachablecdn.com/XczuQNSlKyEYCyRYURQg" class="image-top">
+                    <div class="vertical-title">
+                        ✅ To-Do List Web App
+                    </div>
+                    <div class="vertical-desc">
+                        I built a simple yet efficient To-Do List application using HTML, CSS, and JavaScript to help users manage their daily tasks. The app allows users to add, delete, and mark tasks as completed in an intuitive interface.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="https://cdn.fs.teachablecdn.com/XczuQNSlKyEYCyRYURQg" class="image-top">
+                    <div class="vertical-title">
+                        ✊🖐✌️ Stone Paper Scissors Game
+                    </div>
+                    <div class="vertical-desc">
+                        I created an interactive Stone Paper Scissors game using HTML, CSS, and JavaScript. This classic game allows the user to play against the computer, with real-time result display and score tracking. The UI is simple, responsive, and engaging.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="https://cdn.fs.teachablecdn.com/XczuQNSlKyEYCyRYURQg" class="image-top">
+                    <div class="vertical-title">
+                        🍽️ Zomato Clone (HTML & CSS Only)
+                    </div>
+                    <div class="vertical-desc">
+                        I created a static Zomato Clone using only HTML and CSS, focusing on front-end layout design and visual structure. The project replicates the core look and feel of Zomato’s homepage, including its branding, restaurant sections, and layout style.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="https://cdn.fs.teachablecdn.com/XczuQNSlKyEYCyRYURQg" class="image-top">
+                    <div class="vertical-title">
+                        💱 Currency Converter Web App
+                    </div>
+                    <div class="vertical-desc">
+                        I developed a dynamic Currency Converter using HTML, CSS, and JavaScript that allows users to convert between multiple international currencies in real time. The app fetches the latest exchange rates from a third-party API (such as ExchangeRate API) and updates the conversion instantly based on user input.
+                    </div>
+                </div>
+            </div>
+           
+
+
+    
         </section>
+      
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Your Email" required />
+              <textarea placeholder="Your Message" required></textarea>
+              <button type="submit">Send</button>
+            </form>
+          </section>
     </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Prakash's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <h3>Follow Me</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=100043143820081">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/prakashsoni08/">Instagram</a></li>
+                    <li><a href="https://x.com/Prakashsoni0024">Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/in/prakash-soni0024/">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <h3>Contact Me</h3>
+                <ul>
+                    <li><a href="/">Email: prakashsoni0024@gmail.com</a></li>
+                    <li><a href="/">Phone: 6267094879</a></li>
+                    <li><a href="/">Address: Rajeev Nagar Satna(M.P)</a></li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <h3>About Me</h3>
+                <p>Lorem ipsum dolor sit amet consectetur .</p>
+            </div>
+            
+            
+
+        </div>
+        <div class="footer-rights">
+            &copy; 2025 Prakash Soni. All Rights Reserved.
+        </div>
+
+        
+       
+    </footer>
+    
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-          strings: ['Web Developer', 'Graphic Designer', 'Content Creator'],
+          strings: ['Web Developer', 'Content Creator'],
           typeSpeed: 50,
         });
       </script>
