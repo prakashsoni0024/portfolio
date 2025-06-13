@@ -1,26 +1,28 @@
 body {
     font-family: 'Segoe UI', sans-serif;
-    background-color: #0F172A;
+    background-color:#0F172A;
     margin: 0;
     padding: 0;
   }
   
   .about-section {
     padding: 4rem 2rem;
-    background-color: #1E293B;
+    background-color:#0F172A;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
   .container {
     max-width: 800px;
+    min-height: 20rem;
     margin: auto;
     text-align: center;
   }
   
-  h1 {
+    .about-section h1 {
     color: white;
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    text-align: end;
   }
   
   p {
@@ -29,9 +31,6 @@ body {
     line-height: 1.8;
     margin-bottom: 1.5rem;
   }
-  
-  strong {
-    color: white;
-  }
+ 
   
   

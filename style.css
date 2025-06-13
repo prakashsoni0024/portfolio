@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Poppins, sans-serif;
 }
 body{
     background-color:#0F172A;
@@ -15,7 +16,7 @@ nav{
     align-items: center;
     height: 80px;
     background-color: #1E293B;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); */
 }
 
 nav ul{
@@ -26,12 +27,14 @@ nav ul{
 nav ul li{
     list-style: none;
     margin: 0 23px;
+    font-size: 20px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: 600;
+    
 
 }
 
@@ -50,16 +53,16 @@ nav ul li a:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 80px 0;
+    margin: 40px 0;
    
-    min-height: 72vh;
+    min-height: 82vh;
     
     
     
 }
 
 .firstSection > div {
-    width: 35%;
+    width: 30%;
 }
 
 .leftSection{
@@ -67,17 +70,24 @@ nav ul li a:hover{
     font-size: 2.5rem;   
 }
 .leftSection .buttons {
-    padding: 50px 0;
+    padding: 20px 0;
+    
 
 }
 .leftSection .btn{
-    padding: 12px;
-    background:#3B82F6;
+    padding: 13px 25px;
+    background: transparent;
     color: white;
     border: 2px solid white;
-    border-radius: 6px;
+    border-radius: 40px;
     font-size: 1.2rem;
     cursor: pointer;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.leftSection .btn1 {
+    background-color: #3B82F6;
 }
 .leftSection .btn:hover{
     background: #083885;
@@ -92,8 +102,19 @@ nav ul li a:hover{
     
 }
 
+#intro {
+    font-size: 25px;
+    margin: 10px, 0;
+    font-weight: 550;
+    margin-bottom: 12px;
+
+}
+
 .purple {
     color: #3B82F6;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: sans-serif
 
     ;
 }
@@ -101,7 +122,14 @@ nav ul li a:hover{
     color: grey;
 }
 #element {
-    color: #3B82F6;
+    color: white;
+   
+ 
+}
+
+#last-intro {
+    margin-top: 12px;
+    font-size: 25px;
 }
 
 .secondSection {
@@ -126,12 +154,12 @@ nav ul li a:hover{
 
 }
 
-main hr {
+/* main hr {
     border: 0;
     background-color:#3B82F6;
     height: 1.2px;
     margin: 40px 84px;
-}
+} */
 .secondSection h1 {
     font-size: 1.9rem;
 }
@@ -162,7 +190,7 @@ main hr {
 .section {
     padding: 4rem 2rem;
     text-align: center;
-    background::#0F172A;
+    background:#0F172A;
     color: #fff;
     margin: auto;
     height: 50vh;
@@ -302,7 +330,7 @@ footer .footer-rights{
       flex-direction: column;
       align-items: center;
       text-align: center;
-      min-height: 63vh;
+      min-height: 65vh;
     }
   
     .firstSection .rightSection {
