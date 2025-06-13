@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prakash - Developer Portfolio</title>
     <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="about.css" />
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1454/1454827.png">
     
 </head>
 <body>
     <header>
         <nav id="home">
-            <div class="left">Prakash's Portfolio</div>
+            <div class="left">Portfolio</div>
             <div class="right">
                 <ul>
                   <li><a href="#home">Home</a></li>
-                  <li><a href="/portfolio/about.html">About</a></li>
-                  <li><a href="#home">Services</a></li>
+                  <li><a href="#about-me">About Me</a></li>
+                  <li><a href="#skills">Skills</a></li>
                   <li><a href="#project">Projects</a></li>
                   <li><a href="#contact">Contact Me</a></li>
                 </ul>
@@ -25,8 +26,8 @@
                 <select onchange="location = this.value;">
                   <option value="#">☰ Menu</option>
                   <option value="#home">Home</option>
-                  <option value="/portfolio/about.html">About</option>
-                  <option value="#home">Services</option>
+                  <option value="#about-me">About Me</option>
+                  <option value="#skills">Skills</option>
                   <option value="#project">Projects</option>
                   <option value="#contact">Contact Me</option>
                 </select>
@@ -40,24 +41,31 @@
     <main>
         <section  class="firstSection">
             <div class="leftSection">
-                Hey, My name is <span class="purple">Prakash Soni</span> 
-                <div>I'm a passionate</div>
+                <div id="intro">Hey! It's Me</div>
+                <span class="purple">Prakash Soni</span> 
+                <div id="last-intro">I am a <span id="element"></span></div>
 
                 
-                <span id="element"></span>
+                
                 <div class="buttons">
                     <a href="https://github.com/prakashsoni0024" target="_blank"><button class="btn" >GitHub</button></a>
                     
-                    <a href="assets/Prakash resume .docx" download>
-                        <button class="btn">Download CV</button>
+                    <a href="assets/Prakash_Soni_Resume_2025.pdf" download>
+                        <button class="btn btn1">Resume</button>
                       </a>
                 </div>
             </div>
             <div class="rightSection">
-                <img src="https://www.dharmishi.com/img/vectors/developer.png" alt="">
+                <img src="data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3ClinearGradient id=%22b%22 gradientTransform=%22rotate(-45 .5 .5)%22%3E%3Cstop offset=%220%25%22 stop-color=%22%2300cefc%22%2F%3E%3Cstop offset=%22100%25%22 stop-color=%22%233c1d4b%22%2F%3E%3C%2FlinearGradient%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M921 673.5q-74 173.5-247.5 191t-347 0Q153 847 86.5 673.5T130 370q110-130 240-234.5t281-21Q802 198 898.5 349T921 673.5Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22url(%23b)%22 d=%22M921 673.5q-74 173.5-247.5 191t-347 0Q153 847 86.5 673.5T130 370q110-130 240-234.5t281-21Q802 198 898.5 349T921 673.5Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="">
 
         </section>
-           <hr>
+           <!-- <hr> -->
+            <section id="about-me" class="about-section">
+    <div class="container">
+      <h1>About Me</h1>
+      <p>Hi! I'm a web and Java developer who loves building websites and solving coding problems. I work with the MERN stack for web development and practice Data Structures and Algorithms (DSA) in Java. I'm always learning new things to improve my skills and build better projects.</p>
+    </div>
+  </section>
         <section  id="project" class="secondSection">
             <!-- <span class="text-gray">What I Have Done so far</span> -->
             <h1>My Projects</h1>
@@ -176,13 +184,25 @@
        
     </footer>
     
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
           strings: ['Web Developer', 'Content Creator'],
           typeSpeed: 50,
         });
       </script>
-      <script src="script.js"></script>
+      <script src="script.js"></script> -->
+
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+  var typed = new Typed('#element', {
+    strings: ['web developer', 'content creator'],
+    typeSpeed: 150,
+    backSpeed: 150, // Optional: speed at which text is deleted
+    loop: true     // This enables continuous looping
+  });
+</script>
+<script src="script.js"></script>
+
 </body>
 </html>
