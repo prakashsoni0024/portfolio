@@ -1,0 +1,92 @@
+
+
+#projects {
+  padding: 60px 20px;
+  background-color: #0f172a;
+  text-align: center;
+  color: white;
+  width: 80%;
+  margin: 0 auto; /* centers the section */
+}
+
+#projects h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #fff; 
+}
+
+
+.projects-container {
+  width: 100%;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 2rem;
+}
+
+
+.project-card {
+  background-color: #1e293b;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  overflow: hidden;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+}
+
+/*  Only image: no padding, full width */
+.project-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 0; /* Remove if needed */
+}
+
+/* Wraps all text and adds padding */
+.project-card-content {
+  padding: 15px 20px;
+}
+
+.project-card h3 {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  color: rgb(201, 196, 196);
+  margin-bottom: 20px;
+}
+
+.project-card a {
+  display: inline-block;
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+@media (max-width: 992px) {
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 per row on tablets */
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-container {
+    grid-template-columns: 1fr; /* 1 per row on mobile */
+  }
+}
+
