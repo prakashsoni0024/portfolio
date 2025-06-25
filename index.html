@@ -1,245 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prakash - Developer Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="about.css" />
-    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1454/1454827.png">
-    <link rel="stylesheet" href="project.css">
-    <link rel="stylesheet" href="skills.css">
-    <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-  integrity="sha512-RXf+QSDCUQs6fMZ1xDPjT3t+3x9Rkg3l5YJW17A7Lcr1pOd04iVUpFh4HYwWvDULKfQxjcrx0vY8WcBD3EJt6w=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer"
-/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prakash - Developer Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="about.css" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1454/1454827.png">
+  <link rel="stylesheet" href="project.css">
+  <link rel="stylesheet" href="skills.css">
+  <link rel="stylesheet" href="reloadBtn.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-RXf+QSDCUQs6fMZ1xDPjT3t+3x9Rkg3l5YJW17A7Lcr1pOd04iVUpFh4HYwWvDULKfQxjcrx0vY8WcBD3EJt6w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
 </head>
+
 <body>
-    <header>
-        <nav id="home">
-            <div class="left">Portfolio</div>
-            <div class="right">
-                <ul>
-                  <li><a href="#home">Home</a></li>
-                  <li><a href="#about-me">About Me</a></li>
-                  <li><a href="#skills">Skills</a></li>
-                  <li><a href="#projects">Projects</a></li>
-                  <li><a href="#contact">Contact Me</a></li>
-                </ul>
-              
-                <!-- Mobile Dropdown Menu -->
-                <select onchange="location = this.value;">
-                  <option value="#">☰ Menu</option>
-                  <option value="#home">Home</option>
-                  <option value="#about-me">About Me</option>
-                  <option value="#skills">Skills</option>
-                  <option value="#projects">Projects</option>
-                  <option value="#contact">Contact Me</option>
-                </select>
-              </div>
-              
-            
-        </nav>
-        
-    </header>
-
-    <main>
-        <section  class="firstSection">
-            <div class="leftSection">
-                <div id="intro">Hey! It's Me</div>
-                <span class="purple">Prakash Soni</span> 
-                <div id="last-intro">I am a <span id="element"></span></div>
-
-                
-                
-                <div class="buttons">
-                    <a href="https://github.com/prakashsoni0024" target="_blank"><button class="btn" >GitHub</button></a>
-                    
-                    <a href="assets/Prakash_Soni_Resume_2025.pdf" download>
-                        <button class="btn btn1">Resume</button>
-                      </a>
-                </div>
-            </div>
-            <div class="rightSection">
-                <img src="images/ChatGPT Image Jun 21, 2025, 11_02_19 PM.png" alt="">
-
-        </section>
-           <!-- <hr> -->
-            <section id="about-me" class="about-section">
-    <div class="container">
-      <h1>About Me</h1>
-      <p>Hi! I'm a web and Java developer who loves building websites and solving coding problems. I work with the MERN stack for web development and practice Data Structures and Algorithms (DSA) in Java. I'm always learning new things to improve my skills and build better projects.</p>
-    </div>
-  </section>
-
-<section id="skills">
-  <h2>My Skills</h2>
-  <div class="skills-container">
-
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
-      HTML
-    </div>
-
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
-      CSS
-    </div>
-
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
-      JavaScript
-    </div>
-
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React.js" />
-      React.js
-    </div>
-
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
-      Node.js
-    </div>
-
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express.js" />
-      Express.js
-    </div>
-
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
-      MongoDB
-    </div>
-
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg" alt="Socket.IO" />
-      Socket.IO
-    </div>
-
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
-      Java
-    </div>
-
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
-      Git & GitHub
-    </div>
-
-  </div>
-</section>
-
-
-
-      
-
-
-        <section id="projects">
-  <h1>Projects</h1>
-  <div class="projects-container">
-
-     <div class="project-card">
-  <img src="images/whiteboardart.png" alt="Whiteboard Screenshot" />
-  <div class="project-card-content">
-    <h3>🖊️ Real-Time Whiteboard App</h3>
-    <p>"Collaborative whiteboard using MERN and Socket.IO for live drawing and sync."</p>
-    <a href="https://whiteboard-web-ivory.vercel.app" target="_blank">Explore &RightArrow;</a>
-  </div>
+  <div id="preloader">
+  <div class="spinner"></div>
 </div>
 
 
 
-    <div class="project-card">
-      <img src="images/beautiful-mountains-landscape.jpg" alt="Weather App Screenshot" />
-      <div class="project-card-content">
-      <h3>🌦️ Weathersphere</h3>
-      <p>"Modern weather web app using WeatherAPI to show real-time weather info for any city."</p>
-      <a href="https://weather-app-xqhe.vercel.app/" target="_blank">Explore &RightArrow;</a>
-    </div>
-    </div>
+  <header>
+    <nav id="home">
+      <div class="left">Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
 
-    <div class="project-card">
-      <img src="images/qr code1.jpg" alt="To-Do List Screenshot" />
-      <div class="project-card-content">
-       <h3>🔳 QR Code Generator</h3>
-      <p>"A responsive tool to generate QR codes for any text or URL using HTML, CSS, and JavaScript."</p>
-      <a href="https://qr-code-generator-psi-cyan.vercel.app/" target="_blank">Explore &RightArrow;</a>
+        <!-- Mobile Dropdown Menu -->
+        <select onchange="location = this.value;">
+          <option value="#">☰ Menu</option>
+          <option value="#home">Home</option>
+          <option value="#about-me">About Me</option>
+          <option value="#skills">Skills</option>
+          <option value="#projects">Projects</option>
+          <option value="#contact">Contact Me</option>
+        </select>
+      </div>
+
+
+    </nav>
+
+  </header>
+
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        <div id="intro">Hey! It's Me</div>
+        <span class="purple">Prakash Soni</span>
+        <div id="last-intro">I am a <span id="element"></span></div>
+
+
+
+        <div class="buttons">
+          <a href="https://github.com/prakashsoni0024" target="_blank"><button class="btn">GitHub</button></a>
+
+          <a href="assets/Prakash_Soni_Resume_2025.pdf" download>
+            <button class="btn btn1">Resume</button>
+          </a>
+        </div>
+      </div>
+      <div class="rightSection">
+        <img src="images/ChatGPT Image Jun 21, 2025, 11_02_19 PM.png" alt="">
+
+    </section>
+    <!-- <hr> -->
+    <section id="about-me" class="about-section">
+      <div class="container">
+        <h1>About Me</h1>
+        <p>Hi! I'm a web and Java developer who loves building websites and solving coding problems. I work with the
+          MERN stack for web development and practice Data Structures and Algorithms (DSA) in Java. I'm always learning
+          new things to improve my skills and build better projects.</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>My Skills</h2>
+      <div class="skills-container">
+
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+          HTML
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+          CSS
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            alt="JavaScript" />
+          JavaScript
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React.js" />
+          React.js
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
+          Node.js
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express.js" />
+          Express.js
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
+          MongoDB
+        </div>
+
+        <!-- <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg"
+            alt="Socket.IO" />
+          Socket.IO
+        </div> -->
+
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+          Java
+        </div>
+
+        <!-- <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+          Git & GitHub
+        </div> -->
 
       </div>
-      
-    </div>
+    </section>
 
-    <div class="project-card">
-      <img src="images/ChatGPT Image Jun 21, 2025, 09_48_03 PM.png" alt="Zomato Clone Screenshot" />
-      <div class="project-card-content">
-          <h3>✊🖐✌️ Stone Paper Scissors Game</h3>
-      <p>"Classic game built with HTML, CSS, and JS. Lets users play against the computer with real-time score tracking."</p>
-      <a href="https://stone-paper-scissor-smoky-six.vercel.app/" target="_blank">Explore &RightArrow;</a>
+
+
+
+
+
+    <section id="projects">
+      <h1>Projects</h1>
+      <div class="projects-container">
+
+        <div class="project-card">
+          <img src="images/whiteboardart.png" alt="Whiteboard Screenshot" />
+          <div class="project-card-content">
+            <h3>🖊️ Real-Time Whiteboard App</h3>
+            <p>"This whiteboard app is made using the MERN stack, Canvas API, and Socket.IO. It lets you draw in real-time and includes useful tools like brush size, color change, undo, redo, clear, and download as image."</p>
+            <a href="https://whiteboard-web-ivory.vercel.app" target="_blank">Explore &RightArrow;</a>
+          </div>
+        </div>
+
+
+
+        <div class="project-card">
+          <img src="images/beautiful-mountains-landscape.jpg" alt="Weather App Screenshot" />
+          <div class="project-card-content">
+            <h3>🌦️ Weathersphere</h3>
+            <p>"This weather app is made using HTML, CSS, JavaScript, and WeatherAPI. It shows real-time weather info like temperature, condition, wind, and humidity for any city you search."</p>
+            <a href="https://weather-app-xqhe.vercel.app/" target="_blank">Explore &RightArrow;</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="images/qr code1.jpg" alt="To-Do List Screenshot" />
+          <div class="project-card-content">
+            <h3>🔳 QR Code Generator</h3>
+            <p>"A responsive tool to generate QR codes for any text or URL using HTML, CSS, and JavaScript."</p>
+            <a href="https://qr-code-generator-psi-cyan.vercel.app/" target="_blank">Explore &RightArrow;</a>
+
+          </div>
+
+        </div>
+
+        <div class="project-card">
+          <img src="images/ChatGPT Image Jun 21, 2025, 09_48_03 PM.png" alt="Zomato Clone Screenshot" />
+          <div class="project-card-content">
+            <h3>✊🖐✌️ Stone Paper Scissors Game</h3>
+            <p>"Classic game built with HTML, CSS, and JS. Lets users play against the computer with real-time score
+              tracking."</p>
+            <a href="https://stone-paper-scissor-smoky-six.vercel.app/" target="_blank">Explore &RightArrow;</a>
+
+          </div>
+
+        </div>
+
 
       </div>
-     
-    </div>
+    </section>
 
 
-  </div>
-</section>
-
-      
-        <section id="contact" class="contacts">
-            <h2>Contact Me</h2>
-            <form id="contact-form">
-              <input type="text" placeholder="Your Name" required />
-              <input type="email" placeholder="Your Email" required />
-              <textarea placeholder="Your Message" required></textarea>
+    <section id="contact" class="contacts">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+              <input type="text" name="user_name" placeholder="Your Name" required />
+              <input type="email" name="user_email" placeholder="Your Email" required />
+              <textarea name="user_message" placeholder="Your Message" required></textarea>
               <button type="submit">Send</button>
             </form>
-          </section>
-    </main>
 
-    <footer>
-        <div class="footer">
-            <div class="footer-first">
-                <h3>Prakash's Developer Portfolio</h3>
-            </div>
-            <div class="footer-second">
-                <h3>Follow Me</h3>
-                <ul>
-                    <li><a href="https://www.facebook.com/profile.php?id=100043143820081">Facebook</a></li>
-                    <li><a href="https://www.instagram.com/prakashsoni08/">Instagram</a></li>
-                    <li><a href="https://x.com/Prakashsoni0024">Twitter</a></li>
-                    <li><a href="https://www.linkedin.com/in/prakash-soni0024/">LinkedIn</a></li>
-                </ul>
-            </div>
-            <div class="footer-third">
-                <h3>Contact Me</h3>
-                <ul>
-                    <li><a href="/">Email: prakashsoni0024@gmail.com</a></li>
-                    <li><a href="/">Phone: 6267094879</a></li>
-                    <li><a href="/">Address: Rajeev Nagar Satna(M.P)</a></li>
-                </ul>
-            </div>
-            <div class="footer-fourth">
-                <h3>About Me</h3>
-                <p>Developer</p>
-            </div>
-            
-            
 
-        </div>
-        <div class="footer-rights">
-            &copy; 2025 Prakash Soni. All Rights Reserved.
-        </div>
+    </section>
 
-        
-       
-    </footer>
-    
-    <!-- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="footer-first">
+        <h3>Prakash's Developer Portfolio</h3>
+      </div>
+      <div class="footer-second">
+        <h3>Follow Me</h3>
+        <ul>
+          <li><a href="https://www.facebook.com/profile.php?id=100043143820081">Facebook</a></li>
+          <li><a href="https://www.instagram.com/prakashsoni08/">Instagram</a></li>
+          <li><a href="https://x.com/Prakashsoni0024">Twitter</a></li>
+          <li><a href="https://www.linkedin.com/in/prakash-soni0024/">LinkedIn</a></li>
+        </ul>
+      </div>
+      <div class="footer-third">
+        <h3>Contact Me</h3>
+        <ul>
+          <li><a href="/">Email: prakashsoni0024@gmail.com</a></li>
+          <li><a href="/">Phone: 6267094879</a></li>
+          <li><a href="/">Address: Rajeev Nagar Satna(M.P)</a></li>
+        </ul>
+      </div>
+      <div class="footer-fourth">
+        <h3>About Me</h3>
+        <p>Developer</p>
+      </div>
+
+
+
+    </div>
+    <div class="footer-rights">
+      &copy; 2025 Prakash Soni. All Rights Reserved.
+    </div>
+
+
+
+  </footer>
+
+
+
+
+
+
+
+  <!-- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
           strings: ['Web Developer', 'Content Creator'],
@@ -248,16 +270,20 @@
       </script>
       <script src="script.js"></script> -->
 
-      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-<script>
-  var typed = new Typed('#element', {
-    strings: ['web developer','Java developer', 'content creator'],
-    typeSpeed: 150,
-    backSpeed: 150, // Optional: speed at which text is deleted
-    loop: true     // This enables continuous looping
-  });
-</script>
-<script src="script.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['web developer', 'Java developer', 'content creator'],
+      typeSpeed: 150,
+      backSpeed: 150, // Optional: speed at which text is deleted
+      loop: true     // This enables continuous looping
+    });
+  </script>
+
+
+
+  <script src="script.js"></script>
 
 </body>
+
 </html>
