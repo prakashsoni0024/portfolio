@@ -85,6 +85,12 @@
   .projects-container {
     grid-template-columns: repeat(2, 1fr); /* 2 per row on tablets */
   }
+  #projects {
+    width: 90%; /* Full width on smaller screens */
+    padding: 40px;
+  }
+
+
 }
 
 @media (max-width: 600px) {

@@ -14,6 +14,7 @@ body {
   font-family: sans-serif;
 }
 
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -64,7 +65,9 @@ nav ul li a:hover {
 }
 
 .leftSection {
+ 
   font-size: 2.5rem;
+  
 }
 .leftSection .buttons {
   padding: 20px 0;
@@ -276,11 +279,17 @@ footer .footer-rights {
 
 /* Responsive NavBar for Mobile Devices */
 @media (max-width: 768px) {
-  nav {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 8px;
+  body {
+    overflow-x: hidden; /* Prevent horizontal scroll */
   }
+  nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+    padding: 0 20px;
+    width: 100%; 
+  }
+
 
   nav .right ul {
     display: none; /* Hide normal nav links */
@@ -315,9 +324,14 @@ footer .footer-rights {
   .firstSection .leftSection {
     width: 100%;
     font-size: 1.5rem;
-    padding-right: 20px;
+    text-align: center;
+    
   }
 
+  .firstSection .leftSection  span {
+    padding-left: 10px;
+    
+  }
   .leftSection .buttons {
     display: flex;
     flex-direction: column;
@@ -338,11 +352,21 @@ main hr {
 }
 
 @media (max-width: 768px) {
-  .footer {
-    display: none;
-  }
+ .contacts {
+  padding: 4rem 1.2rem;
+  text-align: center;
+  background: black;
+  color: #fff;
+  width: 100%;
+  
+ }
+}
+
+
+
+@media (max-width: 768px) {
 
   footer {
-    height: 40px;
+    display: none;
   }
 }

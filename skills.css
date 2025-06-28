@@ -60,5 +60,9 @@
     .skill-card {
         width: 80%; /* wider cards on smaller screens */
     }
+    #skills {
+        width: 90%; 
+        padding: 40px;
+    }
 }
 
