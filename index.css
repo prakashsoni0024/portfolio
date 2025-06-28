@@ -231,6 +231,15 @@ footer .footer-rights {
   margin-top: 8px;
   color: rgb(208, 206, 206);
 }
+
+.footer-first h3 i {
+  margin-right: 10px;
+  color: white;
+
+}
+.footer-second ul li a i {
+  margin-right: 10px;
+}
 .footer-second ul li a {
   text-decoration: none;
   list-style: none;
@@ -243,10 +252,17 @@ footer .footer-rights {
   transition: 0.3s;
 }
 
+.footer-third ul li a i {
+  margin-right: 10px;
+}
 .footer-third ul li a {
   text-decoration: none;
   list-style: none;
   color: rgb(208, 206, 206);
+}
+
+.footer-fourth p i {
+  margin-right: 10px;
 }
 .right select {
   display: none;
