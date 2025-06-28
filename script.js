@@ -37,7 +37,7 @@ window.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => {
       loader.style.display = "none";
     }, 500); // Wait for fade-out
-  }, 1500); // Show loader for 1.5 sec even if page is loaded
+  }, 1000); // Show loader for 1 sec even if page is loaded
 });
 
 

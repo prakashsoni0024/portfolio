@@ -3,6 +3,11 @@
   padding: 0;
   font-family: Poppins, sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #0f172a;
   color: white;
@@ -202,7 +207,7 @@ form button {
   cursor: pointer;
 }
 footer {
-  background-color:  #040e1d;
+  background-color: #040e1d;
   height: 250px;
 }
 
@@ -235,7 +240,6 @@ footer .footer-rights {
 .footer-first h3 i {
   margin-right: 10px;
   color: white;
-
 }
 .footer-second ul li a i {
   margin-right: 10px;
@@ -269,7 +273,6 @@ footer .footer-rights {
 }
 
 /* ................................media query ............................ */
-
 
 /* Responsive NavBar for Mobile Devices */
 @media (max-width: 768px) {
