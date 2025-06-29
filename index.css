@@ -275,6 +275,10 @@ footer .footer-rights {
   display: none;
 }
 
+.footer-rights {
+  font-size: 14px;
+}
+
 /* ................................media query ............................ */
 
 /* Responsive NavBar for Mobile Devices */
