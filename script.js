@@ -9,21 +9,22 @@ document.getElementById("contact-form").addEventListener("submit", (e) => {
   const submitBtn = e.target.querySelector("button[type='submit']");
   submitBtn.disabled = true;
 
-  emailjs.sendForm('service_gfwm94d', 'template_pyap9xv', e.target)
-    .then(() => {
-      alert("✅ Message sent successfully!");
-      e.target.reset();
-    }, (error) => {
-      alert("❌ Message failed. Check console.");
-      console.error("EmailJS Error:", error);
-    })
+  emailjs
+    .sendForm("service_gfwm94d", "template_pyap9xv", e.target)
+    .then(
+      () => {
+        alert("✅ Message sent successfully!");
+        e.target.reset();
+      },
+      (error) => {
+        alert("❌ Message failed. Check console.");
+        console.error("EmailJS Error:", error);
+      }
+    )
     .finally(() => {
       submitBtn.disabled = false;
-     
     });
 });
-
-
 
 document.body.style.overflow = "hidden"; // Prevent scroll during loader
 
@@ -40,4 +41,14 @@ window.addEventListener("DOMContentLoaded", () => {
   }, 1000); // Show loader for 1 sec even if page is loaded
 });
 
+const submitBtn = document.getElementById("submit-btn");
+let isIcon = false;
 
+submitBtn.addEventListener("click", function () {
+  if (isIcon) {
+    submitBtn.innerHTML = "Send";
+  } else {
+    submitBtn.innerHTML = '<i class="fa-regular fa-paper-plane"></i>';
+  }
+  isIcon = !isIcon;
+});
