@@ -32,7 +32,7 @@ nav ul {
 nav ul li {
   list-style: none;
   margin: 0 23px;
-  font-size: 20px;
+  font-size: 1.2rem;
 }
 
 nav ul li a {
@@ -46,10 +46,24 @@ nav ul li a:hover {
   transition: 0.3s;
 }
 
+.logo {
+  font-weight: bold;
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Playfair Display', serif;
+
+
+
+}
+.logo .green {
+ color:#3b82f6;
+}
+
 .left {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
+
 
 .firstSection {
   display: flex;
@@ -85,7 +99,7 @@ nav ul li a:hover {
 }
 
 .leftSection .btn1 {
-  background-color: #3b82f6;
+  background-color: #0b52c3;
 }
 .leftSection .btn:hover {
   background: #083885;
@@ -209,6 +223,13 @@ form button {
   border: none;
   cursor: pointer;
 }
+
+
+form button:hover {
+  background: #1d4ed8;
+  transition: 0.3s;
+  
+}
 footer {
   background-color: #040e1d;
   height: 250px;
@@ -270,6 +291,10 @@ footer .footer-rights {
 
 .footer-fourth p i {
   margin-right: 10px;
+}
+.footer-fourth p {
+  margin: auto;
+  font-size: 16px;
 }
 .right select {
   display: none;
