@@ -19,7 +19,8 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 80px;
+  height: auto;
+  padding: 20px 0;
   background-color: #040e1d;
   /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); */
 }
@@ -31,13 +32,13 @@ nav ul {
 
 nav ul li {
   list-style: none;
-  margin: 0 23px;
-  font-size: 1.2rem;
+  margin: 0 20px;
+  font-size: 1.1rem;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: rgb(224, 222, 222);
   font-weight: 600;
 }
 
@@ -315,7 +316,7 @@ footer .footer-rights {
    display: flex;
    align-items: center;
    justify-content: space-between;
-    padding: 0 40px;
+    padding: 20px 40px;
     width: 90%; 
   }
 
