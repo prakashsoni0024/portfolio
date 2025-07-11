@@ -86,6 +86,7 @@ nav ul li a:hover {
 }
 .leftSection .buttons {
   padding: 20px 0;
+  
 }
 .leftSection .btn {
   padding: 13px 25px;
@@ -97,6 +98,7 @@ nav ul li a:hover {
   cursor: pointer;
   margin-right: 20px;
   font-weight: 600;
+ box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
 }
 
 .leftSection .btn1 {
@@ -106,6 +108,7 @@ nav ul li a:hover {
   background: #083885;
   color: white;
   transition: 0.3s;
+   box-shadow: 0 6px 12px rgba(0, 123, 255, 0.5);
 }
 .rightSection img {
   width: 100%;
@@ -325,17 +328,35 @@ footer .footer-rights {
     display: none; /* Hide normal nav links */
   }
 
-  nav .right select {
-    display: block; /* Show the select dropdown */
+   nav .right .dropdown-button {
+    display: block;
     margin-top: auto;
-    padding: 5px;
-    font-size: 0.5rem;
-    background-color: #1e293b;
+    appearance: none;
+    padding: 5px 8px;
+    font-weight: bold;
+    font-size: 0.6rem;
+    background-color: #0b62ee;
     color: white;
-    border: 1px solid white;
-    border-radius: 5px;
-  }
+    border-radius: 30px; 
+    text-align: center;
+    cursor: pointer;
+     box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+     border: none;
+   }
+
+   nav .right .dropdown-button:hover {
+  box-shadow: 0 6px 12px rgba(0, 123, 255, 0.5);
 }
+  
+
+
+}
+
+
+ 
+  
+
+
 
 /* responsive for first section */
 
@@ -398,5 +419,10 @@ main hr {
 
   footer {
     display: none;
+  }
+  
+  .contacts form {
+    width: 90%;
+ 
   }
 }

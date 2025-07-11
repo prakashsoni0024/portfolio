@@ -97,5 +97,6 @@
   .projects-container {
     grid-template-columns: 1fr; /* 1 per row on mobile */
   }
+
 }
 

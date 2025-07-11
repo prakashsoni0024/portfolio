@@ -13,11 +13,27 @@ document.getElementById("contact-form").addEventListener("submit", (e) => {
     .sendForm("service_gfwm94d", "template_pyap9xv", e.target)
     .then(
       () => {
-        alert("✅ Message sent successfully!");
+        // alert("✅ Message sent successfully!");
+        Toastify({
+          text: "✅ Message sent successfully!",
+          duration: 3000,
+          gravity: "top",
+          position: "right",
+          backgroundColor: "#4CAF50",
+          className: "toast-success",
+        }).showToast();
         e.target.reset();
       },
       (error) => {
-        alert("❌ Message failed. Check console.");
+        // alert("❌ Message failed. Check console.");
+        Toastify({
+          text: "❌ Message failed. Check console.",
+          duration: 3000,
+          gravity: "top",
+          position: "right",
+          backgroundColor: "#f44336",
+          className: "toast-error",
+        }).showToast(error);
         console.error("EmailJS Error:", error);
       }
     )
