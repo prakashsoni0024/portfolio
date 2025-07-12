@@ -54,7 +54,7 @@ window.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => {
       loader.style.display = "none";
     }, 500); // Wait for fade-out
-  }, 1000); // Show loader for 1 sec even if page is loaded
+  }, 600); // Show loader for 1 sec even if page is loaded
 });
 
 const submitBtn = document.getElementById("submit-btn");
