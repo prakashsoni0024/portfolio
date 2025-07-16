@@ -42,6 +42,10 @@ document.getElementById("contact-form").addEventListener("submit", (e) => {
     });
 });
 
+
+
+
+
 document.body.style.overflow = "hidden"; // Prevent scroll during loader
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -68,3 +72,11 @@ submitBtn.addEventListener("click", function () {
   }
   isIcon = !isIcon;
 });
+
+
+
+
+
+
+
+

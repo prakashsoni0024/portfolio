@@ -108,12 +108,20 @@ nav ul li a:hover {
   background: #083885;
   color: white;
   transition: 0.3s;
-   box-shadow: 0 6px 12px rgba(0, 123, 255, 0.5);
+   box-shadow: 0 6px 12px #007bff80;
 }
 .rightSection img {
   width: 100%;
   margin: 50px 0;
+  /* filter: drop-shadow(0 0 1px #007bff80) */
+  /* filter: none; */
 }
+
+/* .rightSection img:hover {
+   filter: drop-shadow(0 0 3px #007bff80) 
+   filter: grayscale(100%);
+
+} */
 
 #intro {
   font-size: 25px;

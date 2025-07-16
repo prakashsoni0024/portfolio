@@ -41,6 +41,7 @@ body {
   
     .container {
       padding: 0 1rem;
+     
     }
   
     .about-section h1 {
@@ -50,5 +51,10 @@ body {
   
     p {
       font-size: 1.1rem;
+       text-align: left;
+    
     }
+
+
+    
   }
